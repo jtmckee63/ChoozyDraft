@@ -1,0 +1,6 @@
+framework module JRMFloatingAnimation {
+  umbrella header "JRMFloatingAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

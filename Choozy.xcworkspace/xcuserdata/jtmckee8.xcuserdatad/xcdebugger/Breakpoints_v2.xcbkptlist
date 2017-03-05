@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spotty/PlaceCell.swift"
+            timestampString = "505618092.638148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "PlaceCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spotty/PlaceContoller.swift"
+            timestampString = "505618114.1727"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Spotty/PlaceContoller.swift"
+            timestampString = "505618147.403944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Choozy.PlaceController.__deallocating_deinit"
+                  moduleName = "Choozy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jtmckee8/Desktop/Choozy/ChoiceScene/Spotty/PlaceContoller.swift"
+                  timestampString = "505671791.188912"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Choozy.PlaceController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Choozy.PlaceController"
+                  moduleName = "Choozy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jtmckee8/Desktop/Choozy/ChoiceScene/Spotty/PlaceContoller.swift"
+                  timestampString = "505671791.191199"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Choozy.PlaceController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Choozy.PlaceController"
+                  moduleName = "Choozy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jtmckee8/Desktop/Choozy/ChoiceScene/Spotty/PlaceContoller.swift"
+                  timestampString = "505671791.193357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Choozy.PlaceController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Choozy.PlaceController&gt;"
+                  moduleName = "Choozy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jtmckee8/Desktop/Choozy/ChoiceScene/Spotty/PlaceContoller.swift"
+                  timestampString = "505671791.196613"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Choozy.PlaceController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Choozy.PlaceController&gt;"
+                  moduleName = "Choozy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jtmckee8/Desktop/Choozy/ChoiceScene/Spotty/PlaceContoller.swift"
+                  timestampString = "505671791.202474"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

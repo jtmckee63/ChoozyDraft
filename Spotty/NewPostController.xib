@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Jellee-Roman.otf">
+            <string>Jellee-Roman</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewPostController" customModule="Choozy" customModuleProvider="target">
+            <connections>
+                <outlet property="commentOverlayView" destination="SaX-QG-8W8" id="J7H-dj-BbC"/>
+                <outlet property="filtersCollectionView" destination="zNq-RH-LUE" id="bjD-CC-aaV"/>
+                <outlet property="mediaView" destination="3qZ-0G-bbw" id="9hb-c4-JVN"/>
+                <outlet property="postAsUserButton" destination="IVf-X6-4a2" id="9sa-uk-zsi"/>
+                <outlet property="postCommentTextField" destination="hkp-I7-gF5" id="t41-W2-LQh"/>
+                <outlet property="postFlatButton" destination="Mvr-Fp-1D3" id="GFL-X4-DxW"/>
+                <outlet property="postLocationImageView" destination="HPy-z3-xj9" id="Fdb-3o-MTP"/>
+                <outlet property="postLocationLabel" destination="e8m-VC-BcE" id="R1j-P0-CgQ"/>
+                <outlet property="postParkButton" destination="mhF-UY-1GX" id="qtl-0T-SaN"/>
+                <outlet property="postStairButton" destination="04c-sI-Qeu" id="MgN-Dm-KwX"/>
+                <outlet property="postUserImageView" destination="4m0-Wl-CEe" id="xnI-HU-gpy"/>
+                <outlet property="scrollView" destination="eAw-vt-r0v" id="c2y-lh-sUF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAw-vt-r0v">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SaX-QG-8W8">
+                            <rect key="frame" x="5" y="437" width="364" height="60"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Say something about this spot" textAlignment="natural" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hkp-I7-gF5">
+                                    <rect key="frame" x="60" y="0.0" width="304" height="60"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="Jellee-Roman" family="Jellee" pointSize="12"/>
+                                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                </textField>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4m0-Wl-CEe">
+                                    <rect key="frame" x="10" y="10" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="ZE4-w4-K7M"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="4m0-Wl-CEe" firstAttribute="leading" secondItem="SaX-QG-8W8" secondAttribute="leading" constant="10" id="BlL-YX-WIQ"/>
+                                <constraint firstAttribute="trailing" secondItem="hkp-I7-gF5" secondAttribute="trailing" id="KdV-ND-1ql"/>
+                                <constraint firstItem="hkp-I7-gF5" firstAttribute="top" secondItem="SaX-QG-8W8" secondAttribute="top" id="Md3-Tf-mmm"/>
+                                <constraint firstItem="4m0-Wl-CEe" firstAttribute="top" secondItem="SaX-QG-8W8" secondAttribute="top" constant="10" id="QEd-SZ-dIi"/>
+                                <constraint firstAttribute="bottom" secondItem="hkp-I7-gF5" secondAttribute="bottom" id="f1V-aa-iUb"/>
+                                <constraint firstItem="hkp-I7-gF5" firstAttribute="leading" secondItem="4m0-Wl-CEe" secondAttribute="trailing" constant="10" id="fFu-e4-A7l"/>
+                                <constraint firstItem="4m0-Wl-CEe" firstAttribute="centerY" secondItem="hkp-I7-gF5" secondAttribute="centerY" id="mFw-I0-KbQ"/>
+                                <constraint firstAttribute="height" constant="60" id="rLL-CE-Bx8"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="790 HCR 2124 Loop - Whitney, TX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8m-VC-BcE">
+                            <rect key="frame" x="5" y="557" width="364" height="50"/>
+                            <color key="backgroundColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Jellee-Roman" family="Jellee" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="postIcon" translatesAutoresizingMaskIntoConstraints="NO" id="HPy-z3-xj9">
+                            <rect key="frame" x="15" y="562" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="8QB-Be-eCU"/>
+                                <constraint firstAttribute="height" constant="40" id="dfd-8a-IfZ"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-Fp-1D3">
+                            <rect key="frame" x="5" y="502" width="118" height="50"/>
+                            <color key="backgroundColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="118" id="EVM-qj-6L4"/>
+                                <constraint firstAttribute="height" constant="50" id="xqQ-fa-rye"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Jellee-Roman" family="Jellee" pointSize="15"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Eat">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhF-UY-1GX">
+                            <rect key="frame" x="128" y="502" width="118" height="50"/>
+                            <color key="backgroundColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Jellee-Roman" family="Jellee" pointSize="15"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Drink">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04c-sI-Qeu">
+                            <rect key="frame" x="251" y="502" width="118" height="50"/>
+                            <color key="backgroundColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Jellee-Roman" family="Jellee" pointSize="15"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Play">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVf-X6-4a2">
+                            <rect key="frame" x="5" y="612" width="364" height="50"/>
+                            <color key="backgroundColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="xbl-9O-eLl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Jellee-Roman" family="Jellee" pointSize="15"/>
+                            <state key="normal" title="Post as Cameron Eubank">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="zNq-RH-LUE">
+                            <rect key="frame" x="5" y="380" width="364" height="52"/>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="gzP-NI-xTV"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rCD-Kb-l1x">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qZ-0G-bbw">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="375" id="qWW-1W-1cv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="e8m-VC-BcE" firstAttribute="leading" secondItem="IVf-X6-4a2" secondAttribute="leading" id="01b-DN-hwQ"/>
+                        <constraint firstItem="HPy-z3-xj9" firstAttribute="leading" secondItem="eAw-vt-r0v" secondAttribute="leading" constant="15" id="0K7-mW-tvq"/>
+                        <constraint firstItem="SaX-QG-8W8" firstAttribute="leading" secondItem="Mvr-Fp-1D3" secondAttribute="leading" id="1Z3-ZJ-CSg"/>
+                        <constraint firstItem="e8m-VC-BcE" firstAttribute="centerY" secondItem="HPy-z3-xj9" secondAttribute="centerY" id="2mJ-CS-yOR"/>
+                        <constraint firstItem="mhF-UY-1GX" firstAttribute="leading" secondItem="Mvr-Fp-1D3" secondAttribute="trailing" constant="5" id="58W-ny-0FK"/>
+                        <constraint firstItem="SaX-QG-8W8" firstAttribute="top" secondItem="zNq-RH-LUE" secondAttribute="bottom" constant="5" id="7f6-7I-zDI"/>
+                        <constraint firstItem="Mvr-Fp-1D3" firstAttribute="top" secondItem="SaX-QG-8W8" secondAttribute="bottom" constant="5" id="ANy-ho-ObD"/>
+                        <constraint firstItem="zNq-RH-LUE" firstAttribute="leading" secondItem="SaX-QG-8W8" secondAttribute="leading" id="Dea-Pb-0Nv"/>
+                        <constraint firstItem="04c-sI-Qeu" firstAttribute="leading" secondItem="mhF-UY-1GX" secondAttribute="trailing" constant="5" id="J55-U8-Akw"/>
+                        <constraint firstItem="3qZ-0G-bbw" firstAttribute="leading" secondItem="eAw-vt-r0v" secondAttribute="leading" id="JJp-ng-tax"/>
+                        <constraint firstItem="SaX-QG-8W8" firstAttribute="trailing" secondItem="04c-sI-Qeu" secondAttribute="trailing" id="MyF-Tk-Vlt"/>
+                        <constraint firstItem="3qZ-0G-bbw" firstAttribute="centerX" secondItem="zNq-RH-LUE" secondAttribute="centerX" id="NSu-si-j68"/>
+                        <constraint firstItem="Mvr-Fp-1D3" firstAttribute="baseline" secondItem="mhF-UY-1GX" secondAttribute="firstBaseline" id="QLN-6m-oJk"/>
+                        <constraint firstItem="mhF-UY-1GX" firstAttribute="baseline" secondItem="Mvr-Fp-1D3" secondAttribute="firstBaseline" id="T95-mE-XSu"/>
+                        <constraint firstItem="mhF-UY-1GX" firstAttribute="centerX" secondItem="e8m-VC-BcE" secondAttribute="centerX" id="V79-NH-Ubm"/>
+                        <constraint firstItem="mhF-UY-1GX" firstAttribute="top" secondItem="04c-sI-Qeu" secondAttribute="top" id="VUD-nl-sIs"/>
+                        <constraint firstItem="Mvr-Fp-1D3" firstAttribute="leading" secondItem="e8m-VC-BcE" secondAttribute="leading" id="WUA-zn-6NR"/>
+                        <constraint firstItem="zNq-RH-LUE" firstAttribute="centerX" secondItem="eAw-vt-r0v" secondAttribute="centerX" id="XVK-vj-t3q"/>
+                        <constraint firstItem="e8m-VC-BcE" firstAttribute="top" secondItem="Mvr-Fp-1D3" secondAttribute="bottom" constant="5" id="XeC-5T-LQE"/>
+                        <constraint firstAttribute="trailing" secondItem="3qZ-0G-bbw" secondAttribute="trailing" id="ZJL-3g-wDI"/>
+                        <constraint firstItem="mhF-UY-1GX" firstAttribute="baseline" secondItem="04c-sI-Qeu" secondAttribute="baseline" id="Zlx-dd-sE2"/>
+                        <constraint firstItem="e8m-VC-BcE" firstAttribute="trailing" secondItem="IVf-X6-4a2" secondAttribute="trailing" id="b2y-3m-gFD"/>
+                        <constraint firstItem="IVf-X6-4a2" firstAttribute="top" secondItem="e8m-VC-BcE" secondAttribute="bottom" constant="5" id="hfh-VX-5Gh"/>
+                        <constraint firstItem="3qZ-0G-bbw" firstAttribute="top" secondItem="eAw-vt-r0v" secondAttribute="top" id="jl7-Fl-5jn"/>
+                        <constraint firstItem="HPy-z3-xj9" firstAttribute="top" secondItem="Mvr-Fp-1D3" secondAttribute="bottom" constant="10" id="kM5-sM-Xim"/>
+                        <constraint firstAttribute="bottom" secondItem="IVf-X6-4a2" secondAttribute="bottom" constant="5" id="mDM-pB-1pa"/>
+                        <constraint firstItem="zNq-RH-LUE" firstAttribute="leading" secondItem="eAw-vt-r0v" secondAttribute="leading" constant="5" id="mdL-Wf-9Og"/>
+                        <constraint firstItem="zNq-RH-LUE" firstAttribute="top" secondItem="3qZ-0G-bbw" secondAttribute="bottom" constant="5" id="qbX-CU-wmq"/>
+                        <constraint firstItem="mhF-UY-1GX" firstAttribute="baseline" secondItem="04c-sI-Qeu" secondAttribute="firstBaseline" id="r9f-yM-i8l"/>
+                        <constraint firstItem="Mvr-Fp-1D3" firstAttribute="top" secondItem="mhF-UY-1GX" secondAttribute="top" id="rG8-cd-X8K"/>
+                        <constraint firstItem="zNq-RH-LUE" firstAttribute="trailing" secondItem="SaX-QG-8W8" secondAttribute="trailing" id="wEp-gF-iWR"/>
+                        <constraint firstItem="04c-sI-Qeu" firstAttribute="trailing" secondItem="e8m-VC-BcE" secondAttribute="trailing" id="xcJ-MV-B9x"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eAw-vt-r0v" secondAttribute="bottom" id="78B-Tc-gED"/>
+                <constraint firstAttribute="trailing" secondItem="eAw-vt-r0v" secondAttribute="trailing" id="KOM-gl-Ooq"/>
+                <constraint firstItem="eAw-vt-r0v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xiz-YM-3zv"/>
+                <constraint firstItem="eAw-vt-r0v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="sKq-eK-NEb"/>
+            </constraints>
+            <point key="canvasLocation" x="310.5" y="279.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="postIcon" width="148" height="148"/>
+    </resources>
+</document>

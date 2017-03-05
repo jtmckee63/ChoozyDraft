@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>854972428754-1b7cms4gbhpqch5bqbmpjn1g20s8ae67.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.854972428754-1b7cms4gbhpqch5bqbmpjn1g20s8ae67</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAnuvT8c_wZyltMdyvlS0jZsi47_XxC-Gg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>854972428754</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>AustiNnight.Choozy</string>
+	<key>PROJECT_ID</key>
+	<string>choozy-15cff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>choozy-15cff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:854972428754:ios:3d4eb383bf31b3a5</string>
+	<key>DATABASE_URL</key>
+	<string>https://choozy-15cff.firebaseio.com</string>
+</dict>
+</plist>

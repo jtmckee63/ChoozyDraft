@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vIV-H8-epD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChoozyStart.BG" translatesAutoresizingMaskIntoConstraints="NO" id="3I9-3n-F7m">
+                                        <rect key="frame" x="10" y="156" width="355" height="354"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="354" id="dis-84-IfC"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.094108276069164276" green="0.094124607741832733" blue="0.094100959599018097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="3I9-3n-F7m" firstAttribute="leading" secondItem="vIV-H8-epD" secondAttribute="leading" constant="10" id="FpU-GP-0cO"/>
+                                    <constraint firstItem="3I9-3n-F7m" firstAttribute="centerY" secondItem="vIV-H8-epD" secondAttribute="centerY" id="Rsh-Zq-t4n"/>
+                                    <constraint firstItem="3I9-3n-F7m" firstAttribute="centerX" secondItem="vIV-H8-epD" secondAttribute="centerX" id="yPc-fZ-3jN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vIV-H8-epD" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1dG-z9-tYP"/>
+                            <constraint firstAttribute="trailing" secondItem="vIV-H8-epD" secondAttribute="trailing" id="bZR-8J-RQg"/>
+                            <constraint firstItem="vIV-H8-epD" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="keD-eN-H3B"/>
+                            <constraint firstItem="vIV-H8-epD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tkf-xy-dco"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ChoozyStart.BG" width="278" height="278"/>
+    </resources>
+</document>
